@@ -1,0 +1,8 @@
+#First Leetcode Problem solved
+
+
+I used brute force 1st but it is O(nsq)
+
+then sort array and compare consecutive elements but ut was O(nlogn)
+
+The finally, HashSet used: iterate over loop and compare if digit already exist in hashset, if not then add it in the hashet and then check next element and finally return false if or when duplicate element found.
