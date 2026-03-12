@@ -1,0 +1,2 @@
+hashmap solution: loop over each element of array, find complement of number that adds up to target
+if comp is in hashmap, return the value i.e. index with other numbers index as a pair in a new array, otherwise, put the number and index in hashmap
