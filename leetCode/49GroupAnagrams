@@ -1,0 +1,10 @@
+Answer
+    - Create a HashMap 'map' to keep track 'sorted word -> list of valid anagrams'
+    - Iterate through the words inside 'strs', denoted as 'word'
+        - Find the sorted version 'sort' of 'word'
+        - Put 'sort' and a new list into 'map' if it does not exists
+        - Add 'word' to the list associated with 'sort' inside the 'map'
+    - Create a list 'result'
+    - Iterate through the values of 'map', denoted as 'anagrams'
+        - Add 'anagrams' to 'result'
+    - Return 'result'
